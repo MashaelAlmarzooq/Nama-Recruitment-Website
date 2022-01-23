@@ -1,0 +1,343 @@
+@import "./_variables.css";
+@import "./_global.css";
+
+/*Home Page/ Employer Home/ Job seeker Home*/
+#main .row .searchArea {
+  width: 75%;
+  border: 2px solid var(--border-color);
+  border-radius: 18px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main .row .searchArea #flex_list {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+#main .row .searchArea #flex_list li {
+  margin-right: 6px;
+}
+#main .row .searchArea #cover {
+  width: 90%;
+  margin: 0px auto;
+  background-color: var(--border-color);
+  border-radius: 40px;
+  box-shadow: 0 10px 40px #7e9735, 0 0 0 20px #ffffffeb;
+  transform: scale(0.6);
+}
+#main #employ_row {
+  display: flex;
+  justify-content: space-between;
+}
+#main #employ_row .PostedJobs {
+  width: 75% ;
+  margin-top: 40px;
+  border: 2px solid var(--border-color);
+  border-radius: 18px;
+  padding-top: 1rem;
+  
+}
+#main #employ_row .advice {
+  width: 23%;
+  margin-top: 40px;
+  border: 2px solid var(--border-color);
+  border-radius: 18px;
+  padding: 20px;
+  height: 240px;
+}
+#employ_row .advice .title {
+  padding-bottom: 0.4rem;
+  text-align: center;
+  color: var(--cyber-color);
+}
+#employ_row .advice .adviceContent {
+  padding: 10px;
+}
+#employ_row .notification {
+  width: 23%;
+  margin-top: 40px;
+  border: 2px solid var(--border-color);
+  border-radius: 18px;
+  padding: 20px;
+  height: 260px;
+}
+#employ_row .notification .title {
+  padding-bottom: 0.4rem;
+  text-align: center;
+  color: var(--cyber-color);
+}
+#employ_row .notification .notificationContent {
+  border-bottom: 2px solid var(--border-color);
+  padding: 10px;
+}
+#employ_row .notification .adviceContent {
+  padding-top: 1rem;
+}
+/*==============Advice Page================*/
+#main .row .advice_searchArea {
+  width: 75%;
+  border: 2px solid var(--border-color);
+  border-radius: 18px;
+  padding: 1rem 0;
+  margin-bottom: 30px;
+}
+#main .row .advice_searchArea:last-child {
+  margin-bottom: 0;
+}
+#main .row .advice_searchArea .search_header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  text-align: center;
+}
+#main .row .advice_searchArea .search_content {
+  padding: 1rem;
+  height: 140px;
+  border-bottom: 1px solid var(--border-color);
+}
+#main .row .advice_searchArea .search_footer a {
+  margin-bottom: 0;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+#main .row .advice_searchArea .search_footer a:hover {
+  background-color: var(--border-color);
+  color: var(--white-color);
+}
+#main .row .advice_searchArea .search_footer {
+  padding: 1rem;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#main .row .advice_searchArea .search_footer .like_btns {
+  display: flex;
+}
+#main .row .advice_searchArea .search_footer .like_btns .like_dislike {
+  margin: 0;
+  font-size: 16px;
+  color: var(--cyber-color);
+  padding: 4px 8px;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+#main .row .advice_searchArea .search_footer .like_btns .like_dislike:hover {
+  background-color: var(--border-color);
+  color: var(--white-color);
+}
+/*=========SignUp/ signin pages======*/
+.modal-content1 {
+  background-image: url("./../images/up.png");
+  margin: 3rem auto;
+  border: 5px solid var(--border-color);
+  width: 60%;
+  position: relative;
+}
+.modal-content1 .container1 {
+  padding: 16px;
+}
+/*=========AboutUs/ Contactus pages======*/
+#main #modal-contentAbout {
+  background-image: url("./../images/up.png");
+  border: 5px solid var(--border-color);
+  width: 55%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+#modal-contentAbout #innerAbout {
+  padding: 50px;
+}
+#modal-contentAbout #innerAbout .about_nama {
+  color: var(--cyber-color);
+  margin: 1rem 0;
+}
+#modal-contentAbout #innerAbout .about_nama:first-child {
+  margin-top: 0;
+}
+#modal-contentAbout #innerAbout h5 {
+  margin-bottom: 1rem;
+}
+#modal-contentAbout .cinner {
+  position: relative;
+  padding: 50px;
+}
+#modal-contentAbout .cinner h1 {
+  margin-bottom: 1rem;
+}
+#modal-contentAbout .cinner #clabel {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+}
+
+#modal-contentAbout .cinner #ctext {
+  width: 100%;
+  margin: 8px 0 5px 0;
+}
+/*============Admin/ advice/ jobsekeer-advice/ pages=====================*/
+#main .job_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+}
+#main .job_wrapper #myjobsborder {
+  height: auto;
+  width: 48.5%;
+  padding: 1rem 2rem;
+  border-radius: 18px;
+  background-color: #e8eee6;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#main .job_wrapper #myjobsborder .wrap1 {
+  line-height: 1.5em;
+  color: #3e443b;
+  font-size: 100%;
+}
+/*=============Myadvice page====================*/
+#main .advList {
+  list-style-type: none;
+  height: auto;
+  color: #3e443b;
+}
+#main .advList .adv {
+  margin: 10px;
+  color: #3e443b;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+#main .advList .adv button {
+  margin-left: 40px;
+}
+#main #addadv {
+  padding-top: 50px;
+}
+#main #addadv .FontcolAdv {
+  color: var(--cyber-color);
+}
+/*================MyProfile page======================*/
+#main .emp-profile .infotable {
+  margin-left: 0px;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 50px 0;
+  max-width: 900px;
+}
+#main .emp-profile .infotable .tablehead {
+  background-color: #d3ddd1;
+  color: var(--cyber-color);
+  padding: 5px;
+}
+#main .emp-profile .infotable .tabledata {
+  color: var(--cyber-color);
+  text-align: center;
+  padding: 5px;
+}
+/*=============Footer============*/
+footer {
+  background-color: var(--footer-bg);
+  width: 100%;
+  margin-top: auto;
+}
+footer #footer_wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 2rem 3rem 0.8rem 3rem;
+}
+#footer_wrapper .footer_title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+#footer_wrapper .footer_title .care_ers {
+  width: 29%;
+}
+#footer_wrapper .footer_title .social_media {
+  width: 19%;
+}
+#footer_wrapper .footer_title .about_nama h3 {
+  color: var(--cyber-color);
+  font-size: 18px;
+}
+#footer_wrapper .footer_title .about_nama #footer_links {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.7rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#footer_wrapper .footer_title .about_nama #footer_links li {
+  display: block;
+  margin-top: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+#footer_wrapper .footer_title .about_nama #footer_links li a {
+  color: rgb(75, 72, 72);
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  transition: all 0.4s ease;
+}
+#footer_wrapper .footer_title .about_nama #footer_links li a:hover {
+  text-decoration: underline;
+}
+#footer_wrapper .footer_title .about_nama #footer_links li .icons {
+  margin-right: 1rem;
+}
+#footer_wrapper .footer_title .about_nama #footer_links li .icons img {
+  max-width: 26px;
+  height: auto;
+}
+#footer_wrapper .copy_rights {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.8rem;
+}
+#footer_wrapper .copy_rights p {
+  color: rgb(75, 72, 72);
+  font-size: 15px;
+  font-weight: 400;
+}
+#footer_wrapper .copy_rights .copy_links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+#footer_wrapper .copy_rights .copy_links li {
+  display: block;
+  margin-right: 2rem;
+}
+#footer_wrapper .copy_rights .copy_links li a {
+  color: rgb(75, 72, 72);
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  transition: all 0.4s ease;
+}
+#footer_wrapper .copy_rights .copy_links li a:hover {
+  text-decoration: underline;
+} 
